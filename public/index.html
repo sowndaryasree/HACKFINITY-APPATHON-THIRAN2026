@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Campus Queue</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="card">
+  <h2>Smart Campus Queue</h2>
+
+  <select id="role">
+    <option value="student">Student</option>
+    <option value="staff">Staff</option>
+    <option value="admin">Admin</option>
+  </select>
+
+  <input id="userid" placeholder="Roll / Staff / Admin ID">
+  <input id="secret" type="password" placeholder="DOB (YYYY-MM-DD) / Password">
+
+  <button onclick="login()">Login</button>
+  <p id="error"></p>
+</div>
+
+<script type="module" src="../js/auth.js"></script>
+</body>
+</html>
