@@ -75,21 +75,21 @@ Example:
 smart-campus-queue/
 │
 ├── public/
-│ ├── index.html # Login page
-│ ├── student.html # Student dashboard
-│ ├── staff.html # Staff dashboard
-│ └── admin.html # Admin dashboard
+│ ├── index.html # Login page |
+│ ├── student.html # Student dashboard |
+│ ├── staff.html # Staff dashboard |
+│ └── admin.html # Admin dashboard |
 │
 ├── css/
-│ └── style.css # Modern dark-blue UI
+│ └── style.css # Modern dark-blue UI |
 │
 ├── js/
-│ ├── firebase.js # Firebase configuration
-│ ├── auth.js # Authentication logic
-│ ├── student.js # Student queue logic
-│ ├── staff.js # Staff check-in logic
-│ └── admin.js # Admin controls
-
+│ ├── firebase.js # Firebase configuration |
+│ ├── auth.js # Authentication logic |
+│ ├── student.js # Student queue logic |
+│ ├── staff.js # Staff check-in logic |
+│ └── admin.js # Admin controls |
+|
 ---
 ## 🎯 Use Cases
 
