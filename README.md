@@ -51,3 +51,50 @@ This system reduces physical waiting, shows estimated wait time, and provides se
 
 ## 🧠 Estimated Time Logic
 
+Example:
+- Avg time = 3 minutes
+- Position = 4  
+→ Estimated wait = **12 minutes**
+
+---
+
+## 🛠 Tech Stack
+
+| Layer       | Technology |
+|------------|------------|
+| Frontend   | HTML, CSS, JavaScript |
+| Backend    | Firebase Firestore |
+| Auth       | Custom Firestore-based |
+| Hosting    | Live Server / GitHub Pages |
+| Versioning | Git & GitHub |
+
+---
+
+## 📁 Project Structure
+
+smart-campus-queue/
+│
+├── public/
+│ ├── index.html # Login page
+│ ├── student.html # Student dashboard
+│ ├── staff.html # Staff dashboard
+│ └── admin.html # Admin dashboard
+│
+├── css/
+│ └── style.css # Modern dark-blue UI
+│
+├── js/
+│ ├── firebase.js # Firebase configuration
+│ ├── auth.js # Authentication logic
+│ ├── student.js # Student queue logic
+│ ├── staff.js # Staff check-in logic
+│ └── admin.js # Admin controls
+
+---
+## 🎯 Use Cases
+
+- College and university campuses to manage queues for library, canteen, labs, and offices
+- Queue-based service systems where users need to track waiting time and position  
+- Institutions looking to reduce physical crowding and improve service efficiency  
+
+---
