@@ -73,24 +73,19 @@ Example:
 ## 📁 Project Structure
 
 smart-campus-queue/
+├── index.html # Login page
+├── student.html # Student dashboard
+├── staff.html # Staff dashboard
+├── admin.html # Admin dashboard
 │
-├── public/
-│ ├── index.html # Login page 
-│ ├── student.html # Student dashboard 
-│ ├── staff.html # Staff dashboard 
-│ └── admin.html # Admin dashboard 
+├── style.css # UI styles
 │
-├── css/
-│ └── style.css # Modern dark-blue UI 
-│
-├── js/
-│ ├── firebase.js # Firebase configuration 
-│ ├── auth.js # Authentication logic 
-│ ├── student.js # Student queue logic 
-│ ├── staff.js # Staff check-in logic 
-│ └── admin.js # Admin controls 
-|
----
+├── firebase.js # Firebase config
+├── auth.js # Login logic
+├── student.js # Student queue logic
+├── staff.js # Staff serve logic
+├── admin.js # Admin controls
+
 ## 🎯 Use Cases
 
 - College and university campuses to manage queues for library, canteen, labs, and offices
